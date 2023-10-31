@@ -1,0 +1,18 @@
+
+img {
+    max-width: 100%;
+    border-style: none;
+}
+.container, html {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    }
+
+    .logo{
+        width: 100;
+        background-color: black
+    }
