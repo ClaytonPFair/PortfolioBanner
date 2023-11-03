@@ -9,10 +9,51 @@ img {
     flex-direction: column;
     text-align: center;
     align-items: center;
+}
 
+.logo{
+    padding-top: 2em;
+    width: 12em;
+    background-color: black;
+}
+
+.TopContainer {
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-evenly;
+}
+
+.MainContainer {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: rgb(228, 228, 50);
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: xx-large;
+}
+
+.TraditionalorDigital{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 50%;
     }
 
-    .logo{
-        width: 100;
-        background-color: black
-    }
+.HeadText{
+    padding-top: 2em;
+    font-size: 45;
+    color: rgb(228, 228, 50);
+}
+h1{
+    font-size: 8em;
+    background-color: rgb(228, 228, 50);
+    color: rgb(0, 0, 0);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: auto;
+}
